@@ -1,5 +1,6 @@
 # modernTemplate
-this is repository which develop a modern project
+モダンな開発環境を構築できる。
+
 
 ## 階層構造  
 ~~~
