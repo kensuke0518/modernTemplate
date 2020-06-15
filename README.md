@@ -33,7 +33,9 @@ _**※ディレクトリ構成は検討の余地あり**_
 - Web starter kitを採用するのもあり  
 
 
-## 使用言語・サービス・ツール（2020/02/21現在）　　
+## 使用言語・サービス・ツール（2020/06/15現在）  
+- npm-scriptsを利用する。（Gulpはバージョンによって差異が生じるから）
+    https://ics.media/entry/12226/
 - Webpackを利用する（Gulpは利用を考える。Webpackで事足りているから）  
     https://ics.media/entry/12140/  
     https://ics.media/entry/17376/  
