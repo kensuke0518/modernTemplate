@@ -42,6 +42,71 @@ _**※ディレクトリ構成は検討の余地あり**_
 - Bootstrapを使う  
     https://ics.media/entry/17749/  
 
+###  使用言語等
+- HTML5
+- CSS3
+- **JavaScript**
+- **PHP**
+- **MySQL**
+
+### altCSS
+- **Sass**
+- （Stylus?）
+
+### CSS設計
+- **BEM**
+- _FLOCSS_※個人的な嗜好
+
+## CSSフレームワーク
+- BootStrap など
+
+### altJS
+- _TypeScript_（+ WebPack）
+
+### Javascirptフレームワーク
+- React.js
+- Vue.js
+
+### PHPフレームワーク
+- Laravel
+
+### タスクランナー
+- **npm-scripts**
+- **WebPack**（正確にはモジュールバンドラー）
+- （Gulp）
+
+### CMS
+- _WordPress_
+
+### 開発環境
+- npm（Node Package Manager）
+- Node.js
+- **Git**（分散型バージョン管理）
+- _SourceTree_（Git GUIクライアント）
+- **Docker**（仮想化開発環境）
+ 
+### その他(よくわかってなかったり、必要だと思ってたり、願望だったり)
+- SPA
+- PWA
+- File API
+- WebStorage API（LocalStroage）
+- WebSocket
+- Canvas
+- Three.js
+- AWS EC2,RDS,S3
+- （Azure,GCP）
+- Linuxコマンド
+- VBAマクロ
+- **応用情報技術者**
+- **PM**
+- ウェブ解析
+
+### 注目
+- Next.js
+
+_太字は特に重視したいこと、イタリックは個人的主流_
+
+
 
 ## 信頼の置ける情報ソース（Web標準やSEOに困ったら見る）
 _※メディアをできれば信頼する_  
