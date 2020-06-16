@@ -47,7 +47,7 @@ _**※ディレクトリ構成は検討の余地あり**_
 - CSS3
 - **JavaScript**
 - **PHP**
-- **MySQL**
+- **MySQL**(PostgreSQL)
 
 ### altCSS
 - **Sass**
@@ -61,7 +61,7 @@ _**※ディレクトリ構成は検討の余地あり**_
 - BootStrap など
 
 ### altJS
-- _TypeScript_（+ WebPack）
+- _TypeScript_（+ WebPack）（TypeScriptがあればbabelは不要かどうか？）
 
 ### Javascirptフレームワーク
 - React.js
@@ -73,17 +73,17 @@ _**※ディレクトリ構成は検討の余地あり**_
 ### タスクランナー
 - **npm-scripts**
 - **WebPack**（正確にはモジュールバンドラー）
-- （Gulp）
+- （Gulp）（npm-scriptsがある環境で必要性があるか？と言われているらしい（出典元を探す））
 
 ### CMS
 - _WordPress_
 
 ### 開発環境
-- npm（Node Package Manager）
+- npm（Node Package Manager）（クロスプラットフォームな開発を吸収できるか？）
 - Node.js
 - **Git**（分散型バージョン管理）
 - _SourceTree_（Git GUIクライアント）
-- **Docker**（仮想化開発環境）
+- **Docker**（仮想化開発環境、軽量）
  
 ### その他(よくわかってなかったり、必要だと思ってたり、願望だったり)
 - SPA
@@ -93,12 +93,12 @@ _**※ディレクトリ構成は検討の余地あり**_
 - WebSocket
 - Canvas
 - Three.js
-- AWS EC2,RDS,S3
+- AWS EC2（サーバ）、RDS（データベースサーバ）、S3（SmartStorageService、ストレージ）
 - （Azure,GCP）
 - Linuxコマンド
 - VBAマクロ
-- **応用情報技術者**
-- **PM**
+- **応用情報技術者**（高度情報処理技術者試験）
+- **PM**（高度情報処理技術者試験）
 - ウェブ解析
 
 ### 注目
