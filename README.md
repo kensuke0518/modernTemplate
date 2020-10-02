@@ -1,11 +1,12 @@
 # modernTemplate
-モダンな開発環境を構築できる。
+モダンな「Web制作」開発環境を構築できる。  
+このディレクトリ構造は小規模程度のサイト（〜50ページ相当）を想定している
 
 
 ## 階層構造  
 ~~~
 dist（公開フォルダ。納品フォルダ。当該サイトの実際の表示。distはwebpackのoutput未設定の場合のディレクトリ名から命名）  
-    ┕_template-parts（_header.php,_footer.php,_main-menu.phpなどincludeやrequire_onceするファイル群を格納）  
+    ┕include（_header.php,_footer.php,_main-menu.phpなどincludeやrequire_onceするファイル群を格納）  
     ┕resources（css,js,images,fonts,libs,videosなどを格納する）  
         ┕libs  
             ┕function.php（PHPで書かれたファイルの処理をおこなう。相対パスのURLの出力やPHPのバージョンクエリを付与したりテンプレートファイルを読み込んだりする）  
@@ -24,8 +25,8 @@ src（作業フォルダ。開発フォルダ。sassや圧縮前のjs、fontな�
         ┕custom.scss（各sassファイルをimportするファイル）  
         ┕layout.scss（サイト全体をレイアウトするscssを格納する）  
         ┕ディレクトリ名.scss（ディレクトリ配下で使用するscssを格納する）  
-node_module（gulpやwebpackなどのプラグインを格納している）  
-package.json  
+node_module（gulpやwebpackなどのプラグインを格納している。パッケージインストールすると追加される）  
+package.json（npm init -yで追加）  
 (gulpfile.jsなど)  
 ~~~
 
@@ -47,7 +48,7 @@ _**※ディレクトリ構成は検討の余地あり**_
 - CSS3
 - **JavaScript**
 - **PHP**
-- **MySQL**(PostgreSQL)
+- **MySQL**(PostgreSQL（heroku）、SQLite（React）、sequelize)
 
 ### altCSS
 - **Sass**
@@ -67,12 +68,15 @@ _**※ディレクトリ構成は検討の余地あり**_
 - React.js
 - Vue.js
 
-### PHPフレームワーク
-- Laravel
+### サーバーサイドJS
+- Node.js
+- Express
+- sequelize
 
 ### タスクランナー
 - **npm-scripts**
 - **WebPack**（正確にはモジュールバンドラー）
+- **babel**（正確にはトランスパイラ）
 - （Gulp）（npm-scriptsがある環境で必要性があるか？と言われているらしい（出典元を探す））
 
 ### CMS
@@ -93,10 +97,12 @@ _**※ディレクトリ構成は検討の余地あり**_
 - WebSocket
 - Canvas
 - Three.js
-- AWS EC2（サーバ）、RDS（データベースサーバ）、S3（SmartStorageService、ストレージ）
+- AWS EC2（サーバ、動的サイト、期限付き無料枠（1ヶ月））、RDS（データベースサーバ）、S3（SmartStorageService、ストレージ、静的サイト、無期限無料枠）
 - （Azure,GCP）
 - Linuxコマンド
 - VBAマクロ
+- Laravel
+- Composer
 - **応用情報技術者**（高度情報処理技術者試験）
 - **PM**（高度情報処理技術者試験）
 - ウェブ解析
